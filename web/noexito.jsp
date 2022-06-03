@@ -8,6 +8,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Registro no guardado correctamente!</h1>
+        <h1>Registro no guardado Exitosamente!</h1>
     </body>
 </html>

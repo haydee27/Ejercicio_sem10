@@ -33,7 +33,7 @@
     </c:forEach>
                     <tr>
                         <td colspan="3" align="center">
-                            <a class="btn btn-primary" href="index.jsp" role="button">Regresar</a>
+                            <a class="btn btn-primary" href="index.jsp" role="button">Regresar:</a>
                             
                         </td>
                     </tr>
