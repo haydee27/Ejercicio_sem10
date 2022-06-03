@@ -1,4 +1,8 @@
-
+<%-- 
+    Document   : MConexito
+    Created on : Jun 1, 2022, 6:45:06 PM
+    Author     : Armando
+--%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Registro no guardado correctamente!</h1>
+        <h1>Modificado con Exito</h1>
     </body>
 </html>

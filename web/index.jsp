@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
-    Created on : 06-03-2022, 01:03:54 AM
-    Author     : MINEDUCYT
+    Created on : 05-29-2022, 03:55:45 PM
+    Author     : sampc
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,12 +12,23 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Registro de personas!</h1>
-        <form action="recibir.do" method="POST">
-            DUI:<input type="text" name="txtDUI" value="" /><br>
-            Apellidos: <input type="text" name="txtApellidos" value="" /><br>
-            Nombres: <input type="text" name="txtNombres" value="" /><br>
-            <input type="submit" value="Registrar Nueva Persona" />
-        </form>
+    <center>
+       <h1> Registro de personas </h1>
+        
+        <form action="recibir_SA.do" method="POST">
+         <table cellspacing="3" cellpadding="0" border="1" bigcolor="E4BCD4" > 
+            <tr><td> <label>DUI:</label><br>
+            <input type="text" name="txtDui" value="" /><br><br>
+            <label>Apellidos:</label>
+            <input type="text" name="txtApellido" value="" /><br><br>
+            <label>Nombre:</label>
+            <input type="text" name="txtNombre" value="" /><br><br>
+            
+            <input type="submit" value="Registrar" name="btn" />
+            
+            <a href="Mostrar_CA.do">Ver registros</a></tr>
+             </table>  
+    </form>
+       </center>
     </body>
 </html>

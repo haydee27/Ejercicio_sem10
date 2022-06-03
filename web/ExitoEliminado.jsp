@@ -1,4 +1,8 @@
-
+<%-- 
+    Document   : ExitoEliminado
+    Created on : Jun 1, 2022, 6:27:44 PM
+    Author     : Armando
+--%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Registro no guardado correctamente!</h1>
+        <h1>Eliminado Con exito</h1>
+        <a href="index.jsp">Volver a la pagina principal</a>
     </body>
 </html>
