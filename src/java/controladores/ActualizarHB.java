@@ -8,10 +8,10 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import modelo.DatosPersona;
+import modelo.Persona;
 
 
-public class Actualizar extends HttpServlet {
+public class ActualizarHB extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -30,8 +30,8 @@ public class Actualizar extends HttpServlet {
             String Dui = request.getParameter("dui");
             System.out.println("El dui es: " + Dui);
             
-            DatosPersona p = new DatosPersona();
-            ArrayList<DatosPersona> persona = new ArrayList<>();
+            Persona p = new Persona();
+            ArrayList<Persona> persona = new ArrayList<>();
         
         if(accion.equals("editar"))
         {

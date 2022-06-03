@@ -7,15 +7,16 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import modelo.DatosPersona;
+import modelo.Persona;
 
-public class Modificar_SA extends HttpServlet {
 
- 
+public class recibir extends HttpServlet {
+
+   
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-      response.setContentType("text/html;charset=UTF-8");
-  
+      
+       
     }
 
   
@@ -25,24 +26,25 @@ public class Modificar_SA extends HttpServlet {
         processRequest(request, response);
     }
 
-    
+  
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
         
-        String d =request.getParameter("txtDui");
-        String n = request.getParameter("txtNombre");
-        String a =request.getParameter("txtApellido");
+            String dui=request.getParameter("txtDui");
+        String apellidos=request.getParameter("txtApellido");
+        String nombres=request.getParameter("txtNombre");
         
-        DatosPersona per = new DatosPersona();
-        DatosPersona person = new DatosPersona (d, n, a);
-        if(per.ActualizarD(person) == true){
-            request.getRequestDispatcher("MConexito.jsp").forward(request, response);
-            
-        }
-        else{
-            request.getRequestDispatcher("noexito.jsp").forward(request, response);
+        Persona person= new Persona();
+        person.setDui(dui);
+        person.setApellido(apellidos);
+        person.setNombre(nombres);
+        
+        if(person.InsertarDatos()==true){
+            request.getRequestDispatcher("exito.jsp").forward(request, response);
+        }else{
+          request.getRequestDispatcher("noexito.jsp").forward(request, response);   
         }
     }
 

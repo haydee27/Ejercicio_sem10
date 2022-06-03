@@ -2,11 +2,11 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>recibir_SA</servlet-name>
-        <servlet-class>controladores.recibir_SA</servlet-class>
+        <servlet-class>controladores.recibir</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Mostrar</servlet-name>
-        <servlet-class>controladores.Mostrar_CA</servlet-class>
+        <servlet-class>controladores.mostrar</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>modificar_SA</servlet-name>
@@ -14,19 +14,19 @@
     </servlet>
     <servlet>
         <servlet-name>Mostrar_CA</servlet-name>
-        <servlet-class>controladores.Mostrar_CA</servlet-class>
+        <servlet-class>controladores.mostrar</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Delete_CA</servlet-name>
-        <servlet-class>controladores.Delete_CA</servlet-class>
+        <servlet-class>controladores.eliminarHB</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Modificar_SA</servlet-name>
-        <servlet-class>controladores.Modificar_SA</servlet-class>
+        <servlet-class>controladores.modificar</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Actualizar</servlet-name>
-        <servlet-class>controladores.Actualizar</servlet-class>
+        <servlet-class>controladores.ActualizarHB</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>edit</servlet-name>

@@ -12,13 +12,13 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import modelo.DatosPersona;
+import modelo.Persona;
 
 /**
  *
  * @author Armando
  */
-public class Mostrar_CA extends HttpServlet {
+public class mostrar extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -32,8 +32,8 @@ public class Mostrar_CA extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
             
-         DatosPersona p = new DatosPersona(); // Conectar a la BD
-        ArrayList<DatosPersona> personas = new ArrayList<>();
+         Persona p = new Persona(); // Conectar a la BD
+        ArrayList<Persona> personas = new ArrayList<>();
         personas = p.ConsultarR();
         request.getSession().setAttribute("personas", personas); //Asignar valores a la sesion
         request.getRequestDispatcher("mostrartodo.jsp").forward(request, response);

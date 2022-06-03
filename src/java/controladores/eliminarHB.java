@@ -11,13 +11,13 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import modelo.DatosPersona;
+import modelo.Persona;
 
 /**
  *
  * @author Armando
  */
-public class Delete_CA extends HttpServlet {
+public class eliminarHB extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -55,7 +55,7 @@ public class Delete_CA extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
          processRequest(request, response);
-             DatosPersona pers = new DatosPersona();
+             Persona pers = new Persona();
         String dui = request.getParameter("txtDui");
         if(pers.eliminar(Integer.parseInt(dui)) == true)
         {
