@@ -22,7 +22,7 @@
     </servlet>
     <servlet>
         <servlet-name>Modificar_SA</servlet-name>
-        <servlet-class>controladores.modificar</servlet-class>
+        <servlet-class>controladores.modificarHB</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Actualizar</servlet-name>

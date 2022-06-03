@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import modelo.Persona;
 
-public class modificar extends HttpServlet {
+public class modificarHB extends HttpServlet {
 
  
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
