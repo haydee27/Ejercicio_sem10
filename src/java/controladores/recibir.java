@@ -1,4 +1,3 @@
-
 package controladores;
 
 import java.io.IOException;
@@ -55,3 +54,4 @@ public class recibir extends HttpServlet {
     }// </editor-fold>
 
 }
+

@@ -8,9 +8,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Modificar registro</h1>
+    <center><h1>Modificar registro</h1>
         
-        <form action="Modificar_SA.do" method="post">
+        <form action="modificarHB.do" method="post">
             <c:forEach var="listaTotal" items="${sessionScope.persona}">
                 <input type="text" name="txtDui" value="${listaTotal.dui}" readonly="true"><br>
                 <input type="text" name="txtNombre" value="${listaTotal.apellido}"><br>
@@ -18,6 +18,6 @@
             </c:forEach>
                 <input type="submit" value="Modificar">
         </form>
-  
+</center>
     </body>
 </html>

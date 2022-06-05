@@ -13,7 +13,7 @@
         
         
         
-    <from action="Delete_HB.do" method="post">
+    <from action="eliminarHB.do" method="post">
         <c:forEach var="listaTotal" items="${sessionScope.persona}">
             DUI:<input type="text" name="txtDui" value="${listaTotal.dui}"><br>
             Nombre:<input type="text" name="txtNombre" value="${listaTotal.nombre}"><br>

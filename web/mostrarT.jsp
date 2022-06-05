@@ -12,7 +12,7 @@
         <h1>MUESTRA DE DATOS!</h1>
         <center>
         <h1>Todos los registros</h1>
-        <table class="table" Style="width: 40%">
+        <table class="table" Style="width: 50%">
                 <thead>
                     <tr>
                         <th scope="col">DUI</th>
@@ -26,8 +26,8 @@
                         <td>${listaTotal.dui}</td>
                         <td>${listaTotal.apellido}</td>
                         <td> ${listaTotal.nombre}</td>
-                        <td><a  href="Actualizar.do?accion=editar&&dui=${listaTotal.dui}" role="button">Editar</a></td>
-                        <td><a  href="Actualizar.do?accion=eliminar&&dui=${listaTotal.dui}" role="button">Eliminar</a></td>
+                        <td><a  href="actualizarHB.do?accion=editar&&dui=${listaTotal.dui}" role="button">Editar</a></td>
+                        <td><a  href="actualizarHB.do?accion=eliminar&&dui=${listaTotal.dui}" role="button">Eliminar</a></td>
                     </tr>
                    
     </c:forEach>

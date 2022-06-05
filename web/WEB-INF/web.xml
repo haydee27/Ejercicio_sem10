@@ -36,6 +36,26 @@
         <servlet-name>eliminar_CA</servlet-name>
         <servlet-class>controladores.eliminar_CA</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>recibir</servlet-name>
+        <servlet-class>controladores.recibir</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>mostrar</servlet-name>
+        <servlet-class>controladores.mostrar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>modificarHB</servlet-name>
+        <servlet-class>controladores.modificarHB</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>eliminarHB</servlet-name>
+        <servlet-class>controladores.eliminarHB</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>actualizarHB</servlet-name>
+        <servlet-class>controladores.actualizarHB</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>recibir_SA</servlet-name>
         <url-pattern>/recibir_SA.do</url-pattern>
@@ -71,6 +91,26 @@
     <servlet-mapping>
         <servlet-name>eliminar_CA</servlet-name>
         <url-pattern>/eliminar_CA.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>recibir</servlet-name>
+        <url-pattern>/recibir.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mostrar</servlet-name>
+        <url-pattern>/mostra.dor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>modificarHB</servlet-name>
+        <url-pattern>/modificarHB.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>eliminarHB</servlet-name>
+        <url-pattern>/eliminarHB.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>actualizarHB</servlet-name>
+        <url-pattern>/actualizarHB.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

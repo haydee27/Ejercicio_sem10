@@ -11,7 +11,7 @@
     <center>
        <h1> Registro  </h1>
         
-        <form action="Delete.do" method="POST">
+        <form action="recibir.do" method="POST">
          <table cellspacing="3" cellpadding="0" border="1" bigcolor="$purple-100" > 
             <tr><td> <label>DUI:</label><br>
             <input type="text" name="txtDui" value="" /><br><br>
@@ -22,7 +22,7 @@
             
             <input type="submit" value="Registrar" name="btn" />
             
-            <a href="Mostrar_BH.do">Ver registros</a></tr>
+            <a href="mostrar.do">Ver registros</a></tr>
              </table>  
     </form>
        </center>
