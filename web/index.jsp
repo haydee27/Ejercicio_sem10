@@ -11,7 +11,7 @@
     <center>
        <h1> Registro  </h1>
         
-        <form action="recibir_HB.do" method="POST">
+        <form action="Delete.do" method="POST">
          <table cellspacing="3" cellpadding="0" border="1" bigcolor="$purple-100" > 
             <tr><td> <label>DUI:</label><br>
             <input type="text" name="txtDui" value="" /><br><br>

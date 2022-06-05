@@ -38,7 +38,7 @@ public class modificarHB extends HttpServlet {
         Persona per = new Persona();
         Persona person = new Persona (d, n, a);
         if(per.Actualizar(person) == true){
-            request.getRequestDispatcher("MConexito.jsp").forward(request, response);
+            request.getRequestDispatcher("exitoM.jsp").forward(request, response);
             
         }
         else{

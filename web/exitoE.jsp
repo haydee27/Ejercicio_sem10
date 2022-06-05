@@ -1,8 +1,3 @@
-<%-- 
-    Document   : ExitoEliminado
-    Created on : Jun 1, 2022, 6:27:44 PM
-    Author     : Armando
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
