@@ -2,7 +2,7 @@
 APLICACIÓN WEB (JSP-SERVLET-MYSQL)
 
 Nombre de equipo:
---Sarai Alexandra Mancia Abrego
---Carlos Armando Minero Flores
+-Haydee Abigail Bonilla Reyes
+-Melani Abigail Beltran Mejia
 
 Grupos:  SIS21A
